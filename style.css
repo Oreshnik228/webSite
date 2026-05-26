@@ -26,9 +26,15 @@ h2{
     position: absolute;
     display: block;
 }
+.Dog.active{
+    display: none;
+}
 .Cat{
     position: absolute;
     display: none;
+}
+.Cat.active{
+    display: block;
 }
 
 .header_section{
